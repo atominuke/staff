@@ -1,0 +1,67 @@
+StaffPlusPlusDiscord:
+    templatePack: "default" # Choose from template packs "default" or "videndum"
+    updateTemplates: true
+    # REPORTS
+
+    reports:
+        # The discord webhook url. This can be found in you discord server settings
+        webhookUrl: ""
+        # Optional webhook url. When provided, reports linked to a player will be send on this url.
+        playerReportsWebhookUrl: ""
+        # Trigger a discord message when some player opens a new report
+        notifyOpen: false
+        # Trigger a discord message when a staff member for some reason decides to not handle a report and he unassigns himself
+        notifyReopen: false
+        # Trigger a discord message when a staff member assigns himself to an open report
+        notifyAccept: false
+        # Trigger a discord message when a staff member rejects a report
+        notifyReject: false
+        # Trigger a discord message when a staff member resolves a report
+        notifyResolve: false
+
+    warnings:
+        webhookUrl: ""
+        notifyCleared: false
+        notifyCreate: false
+        notifyThresholdReached: false
+        appeals:
+            webhookUrl: ""
+            notifyCreate: false
+            notifyApproved: false
+            notifyRejected: false
+    bans:
+        webhookUrl: ""
+        ban: false
+        unban: false
+    kicks:
+        webhookUrl: ""
+        kick: false
+    mutes:
+        webhookUrl: ""
+        mute: false
+        unmute: false
+    altDetect:
+        webhookUrl: ""
+        # Levels that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
+        # possible values: POSITIVE, FAIRLY_POSITIVE, POSSIBLE, NOT_LIKELY
+        # example value: POSITIVE;FAIRLY_POSITIVE
+        enabledTrustLevels: ""
+    xray:
+        webhookUrl: ""
+        # Ores that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
+        # possible values: any bukkit material
+        # example value: DIAMOND;REDSTONE
+        enabledOres: ""
+    staffmode:
+        webhookUrl: ""
+        # Trigger a discord message whenever a staffmember enters staffmode
+        notify-enter: false
+        # Trigger a discord message whenever a staffmember enters staffmode
+        notify-exit: false
+    chat:
+        webhookUrl: ""
+        # Trigger a discord message whenever a a player sends a chat message containing predefined words/phrases
+        phrase-detection: false
+    staffchat:
+        sync: false
+        message-format: "&9&l(discord) &7%text%"
