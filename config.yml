@@ -5,7 +5,7 @@ StaffPlusPlusDiscord:
 
     reports:
         # The discord webhook url. This can be found in you discord server settings
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         # Optional webhook url. When provided, reports linked to a player will be send on this url.
         playerReportsWebhookUrl: ""
         # Trigger a discord message when some player opens a new report
@@ -20,7 +20,7 @@ StaffPlusPlusDiscord:
         notifyResolve: false
 
     warnings:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         notifyCleared: false
         notifyCreate: false
         notifyThresholdReached: false
@@ -30,36 +30,36 @@ StaffPlusPlusDiscord:
             notifyApproved: false
             notifyRejected: false
     bans:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         ban: false
         unban: false
     kicks:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         kick: false
     mutes:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         mute: false
         unmute: false
     altDetect:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         # Levels that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
         # possible values: POSITIVE, FAIRLY_POSITIVE, POSSIBLE, NOT_LIKELY
         # example value: POSITIVE;FAIRLY_POSITIVE
         enabledTrustLevels: ""
     xray:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         # Ores that should be notified to discord, leave empty to disable all notifications. Should be semi-colon separated
         # possible values: any bukkit material
         # example value: DIAMOND;REDSTONE
         enabledOres: ""
     staffmode:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         # Trigger a discord message whenever a staffmember enters staffmode
         notify-enter: false
         # Trigger a discord message whenever a staffmember enters staffmode
         notify-exit: false
     chat:
-        webhookUrl: ""
+        webhookUrl: "https://discord.com/api/webhooks/845883867281621012/2rzz36Utb4VK4toiLBCYddUqlFxFsTKmt7YrFwYV9KGIL_YiwCxJSvVejQGoYVoHoqYf"
         # Trigger a discord message whenever a a player sends a chat message containing predefined words/phrases
         phrase-detection: false
     staffchat:
